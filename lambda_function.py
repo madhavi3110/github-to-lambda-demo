@@ -5,3 +5,4 @@ def lambda_handler(event, context):
     df = pd.DataFrame(data=d)
     print(df)
     print('Done x1.1 update from Git removed wekhook for Build Project')
+    print('TESTING SEND NOTIFICATION FROM PIPELINE STATUS CHANGE')
